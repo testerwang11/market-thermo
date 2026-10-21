@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-21 17:05:10 GMT+8",
+ "generated_at": "2026-10-21 17:31:14 GMT+8",
  "scope_note": "宽度为成交额Top800口径；流动性为全市场口径",
  "warnings": [
-  "快照有 3 页拉取失败，统计口径会偏小",
+  "快照有 7 页拉取失败，统计口径会偏小",
   "行业资金流失败: Expecting value: line 1 column 1 (char 0)",
   "ETF 资金流获取失败: Expecting value: line 1 column 1 (char 0)"
  ],
@@ -107,9 +107,9 @@
    "name": "美元指数",
    "group": "欧美",
    "code": "UDI",
-   "price": 101.8,
-   "pct": 0.1,
-   "change": 0.1
+   "price": 101.78,
+   "pct": 0.08,
+   "change": 0.08
   }
  ],
  "breadth": {
@@ -245,12 +245,12 @@
  },
  "liquidity": {
   "top_ratio": 43.3,
-  "hhi": 0.00172,
-  "gini": 0.6895,
-  "risk": 60.7,
+  "hhi": 0.00178,
+  "gini": 0.696,
+  "risk": 61.3,
   "level": "中风险",
   "note": "资金中度集中，赚钱效应收敛，控制追高",
-  "sample": 5016,
+  "sample": 4816,
   "top_pct": 5.0
  },
  "margin": {
@@ -267,18 +267,18 @@
  "sector": null,
  "volume_ratio": 0.819,
  "emotion": {
-  "score": 46.9,
+  "score": 46.8,
   "level": "中性",
   "note": "情绪中性，跟随主线即可",
   "parts": {
-   "advance": 37.9,
+   "advance": 37.7,
    "ma_breadth": 33.3,
    "limit_net": 100.0,
    "volume": 38.0,
    "margin": 15.0
   },
   "why": {
-   "advance": "上涨家数占比 37.9%",
+   "advance": "上涨家数占比 37.7%",
    "ma_breadth": "站上20日均线 33.3%",
    "limit_net": "涨停 58 / 跌停 10",
    "volume": "沪市量能比 0.82（相对20日均值）",
@@ -288,29 +288,29 @@
    "hot": 70.0,
    "cold": 30.0
   },
-  "up": 1903,
-  "down": 2904,
-  "flat": 210,
+  "up": 1815,
+  "down": 2797,
+  "flat": 205,
   "limit_up": 58,
   "limit_down": 10
  },
  "flow": {
-  "main_net": -87.0,
-  "xlarge_net": 10.2,
-  "large_net": -97.2,
-  "mid_net": -25.3,
-  "small_net": 112.3,
-  "main_pct": -0.61,
+  "main_net": -82.3,
+  "xlarge_net": 12.0,
+  "large_net": -94.3,
+  "mid_net": -27.8,
+  "small_net": 110.1,
+  "main_pct": -0.59,
   "main_in": false,
   "retail_in": true
  },
  "breadth_count": {
-  "up": 1903,
-  "down": 2904,
-  "flat": 210,
+  "up": 1815,
+  "down": 2797,
+  "flat": 205,
   "limit_up": 58,
   "limit_down": 10,
-  "advance_pct": 37.9,
+  "advance_pct": 37.7,
   "limit_net": 48
  },
  "futures_basis": {
@@ -359,9 +359,9 @@
   "confidence": 64,
   "evidence": [
    "上证 -0.60%（绿盘）",
-   "主力净流出 -87.0亿（<-50亿）",
+   "主力净流出 -82.3亿（<-50亿）",
    "成交额宽度 33.3%（<40%）",
-   "上涨家数占比 37.9%（<40%）",
+   "上涨家数占比 37.7%（<40%）",
    "期指贴水 -1.64%（<-0.30%，资金避险）"
   ],
   "posture": "空仓等待，保住本金",
@@ -438,7 +438,7 @@
   "confirms": [
    {
     "metric": "主力资金",
-    "anchor": "今日主力净流入 -87.0亿",
+    "anchor": "今日主力净流入 -82.3亿",
     "good": "明日盘中主力资金净流入转正（>0亿）",
     "then_good": "派发压力缓解，可按计划小仓试错",
     "then_bad": "维持减仓基调，反弹以减为主",
@@ -533,5 +533,5 @@
    "cls": "stale"
   }
  },
- "elapsed": 116.6
+ "elapsed": 105.4
 }
