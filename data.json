@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26 15:56:19 GMT+8",
+ "generated_at": "2026-10-26 17:37:55 GMT+8",
  "scope_note": "宽度为成交额Top800口径；流动性为全市场口径",
  "warnings": [
   "行业资金流失败: Expecting value: line 1 column 1 (char 0)",
@@ -50,17 +50,17 @@
    "name": "恒生指数",
    "group": "亚太",
    "code": "HSI",
-   "price": 23222.08,
-   "pct": 0.56,
-   "change": 128.71
+   "price": 23211.81,
+   "pct": 0.51,
+   "change": 118.44
   },
   {
    "name": "国企指数",
    "group": "亚太",
    "code": "HSCEI",
-   "price": 7805.39,
-   "pct": 0.63,
-   "change": 49.14
+   "price": 7802.09,
+   "pct": 0.59,
+   "change": 45.84
   },
   {
    "name": "日经225",
@@ -106,9 +106,9 @@
    "name": "美元指数",
    "group": "欧美",
    "code": "UDI",
-   "price": 101.8,
-   "pct": 0.05,
-   "change": 0.05
+   "price": 101.78,
+   "pct": 0.03,
+   "change": 0.03
   }
  ],
  "breadth": {
@@ -535,5 +535,5 @@
    "cls": "stale"
   }
  },
- "elapsed": 105.3
+ "elapsed": 103.0
 }
