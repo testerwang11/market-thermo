@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-30 18:41:34 GMT+8",
+ "generated_at": "2026-10-30 18:59:04 GMT+8",
  "scope_note": "宽度为成交额Top800口径；流动性为全市场口径",
  "warnings": [
-  "快照有 4 页拉取失败，统计口径会偏小",
+  "快照有 7 页拉取失败，统计口径会偏小",
   "行业资金流失败: Expecting value: line 1 column 1 (char 0)",
   "ETF 资金流获取失败: Expecting value: line 1 column 1 (char 0)"
  ],
@@ -107,9 +107,9 @@
    "name": "美元指数",
    "group": "欧美",
    "code": "UDI",
-   "price": 101.65,
-   "pct": -0.25,
-   "change": -0.25
+   "price": 101.64,
+   "pct": -0.26,
+   "change": -0.26
   }
  ],
  "breadth": {
@@ -244,13 +244,13 @@
   "scope": "成交额Top800"
  },
  "liquidity": {
-  "top_ratio": 39.7,
-  "hhi": 0.00132,
-  "gini": 0.6635,
-  "risk": 53.9,
+  "top_ratio": 39.5,
+  "hhi": 0.00136,
+  "gini": 0.6616,
+  "risk": 54.1,
   "level": "中风险",
   "note": "资金中度集中，赚钱效应收敛，控制追高",
-  "sample": 4817,
+  "sample": 4617,
   "top_pct": 5.0
  },
  "margin": {
@@ -267,20 +267,20 @@
  "sector": null,
  "volume_ratio": 1.104,
  "emotion": {
-  "score": 22.9,
+  "score": 23.4,
   "level": "恐惧",
   "note": "情绪进入冰点，往往对应机会区",
   "parts": {
-   "advance": 16.5,
+   "advance": 17.0,
    "ma_breadth": 30.8,
-   "limit_net": 2.7,
+   "limit_net": 4.2,
    "volume": 55.0,
    "margin": 15.0
   },
   "why": {
-   "advance": "上涨家数占比 16.5%",
+   "advance": "上涨家数占比 17.0%",
    "ma_breadth": "站上20日均线 30.8%",
-   "limit_net": "涨停 56 / 跌停 180",
+   "limit_net": "涨停 55 / 跌停 169",
    "volume": "沪市量能比 1.10（相对20日均值）",
    "margin": "两融10日变动 -4.77%"
   },
@@ -288,30 +288,30 @@
    "hot": 70.0,
    "cold": 30.0
   },
-  "up": 794,
-  "down": 3957,
-  "flat": 68,
-  "limit_up": 56,
-  "limit_down": 180
+  "up": 784,
+  "down": 3768,
+  "flat": 67,
+  "limit_up": 55,
+  "limit_down": 169
  },
  "flow": {
-  "main_net": -388.5,
-  "xlarge_net": -162.0,
-  "large_net": -226.5,
-  "mid_net": 31.9,
-  "small_net": 356.6,
-  "main_pct": -2.38,
+  "main_net": -381.7,
+  "xlarge_net": -161.6,
+  "large_net": -220.0,
+  "mid_net": 30.5,
+  "small_net": 351.2,
+  "main_pct": -2.37,
   "main_in": false,
   "retail_in": true
  },
  "breadth_count": {
-  "up": 794,
-  "down": 3957,
-  "flat": 68,
-  "limit_up": 56,
-  "limit_down": 180,
-  "advance_pct": 16.5,
-  "limit_net": -124
+  "up": 784,
+  "down": 3768,
+  "flat": 67,
+  "limit_up": 55,
+  "limit_down": 169,
+  "advance_pct": 17.0,
+  "limit_net": -114
  },
  "futures_basis": {
   "items": [
@@ -359,11 +359,11 @@
   "confidence": 88,
   "evidence": [
    "上证 -1.44%（绿盘）",
-   "主力净流出 -388.5亿（<-50亿）",
-   "超大单净流出 -162.0亿（<-30亿，机构卖出）",
+   "主力净流出 -381.7亿（<-50亿）",
+   "超大单净流出 -161.6亿（<-30亿，机构卖出）",
    "成交额宽度 30.8%（<40%）",
    "情绪 23分（≤42分 转冷/冰点）",
-   "跌停 180家（≥20家）",
+   "跌停 169家（≥20家）",
    "期指贴水 -1.38%（<-0.30%，避险情绪）"
   ],
   "posture": "降仓避险",
@@ -438,7 +438,7 @@
   "confirms": [
    {
     "metric": "主力资金",
-    "anchor": "今日主力净流入 -388.5亿",
+    "anchor": "今日主力净流入 -381.7亿",
     "good": "明日盘中主力资金净流入转正（>0亿）",
     "then_good": "派发压力缓解，可按计划小仓试错",
     "then_bad": "维持减仓基调，反弹以减为主",
@@ -462,7 +462,7 @@
    },
    {
     "metric": "涨停家数",
-    "anchor": "今日涨停 56家",
+    "anchor": "今日涨停 55家",
     "good": "明日涨停家数 ≥50 且炸板不明显",
     "then_good": "情绪延续，题材可小仓参与",
     "then_bad": "涨停数骤降＝情绪退潮，题材一律不追",
@@ -533,5 +533,5 @@
    "cls": "stale"
   }
  },
- "elapsed": 170.3
+ "elapsed": 101.7
 }
