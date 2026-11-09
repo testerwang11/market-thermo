@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09 21:15:33 GMT+8",
+ "generated_at": "2026-11-09 21:37:47 GMT+8",
  "scope_note": "宽度为成交额Top800口径；流动性为全市场口径",
  "warnings": [],
  "indices": [
@@ -747,5 +747,5 @@
    "cls": "stale"
   }
  },
- "elapsed": 164.4
+ "elapsed": 166.7
 }
