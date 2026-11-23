@@ -1,1 +1,1 @@
-window.THERMO_TIMELINE = {"date": "2026-11-20", "segments": [{"s": "13:48", "e": "15:00", "regime": "出货撤退", "confidence": 76}]};
+window.THERMO_TIMELINE = {"date": "2026-11-23", "segments": [{"s": "13:52", "e": "13:52", "regime": "共振拉升", "confidence": 69}]};
