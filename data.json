@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27 22:11:44 GMT+8",
+ "generated_at": "2026-11-27 22:42:06 GMT+8",
  "scope_note": "宽度为成交额Top800口径；流动性为全市场口径",
  "warnings": [],
  "indices": [
@@ -79,33 +79,33 @@
    "name": "道琼斯",
    "group": "欧美",
    "code": "DJIA",
-   "price": 50182.95,
-   "pct": 0.33,
-   "change": 164.25
+   "price": 50531.92,
+   "pct": 0.7,
+   "change": 348.97
   },
   {
    "name": "纳斯达克100",
    "group": "欧美",
    "code": "NDX",
-   "price": 23585.8,
-   "pct": -0.62,
-   "change": -147.74
+   "price": 23782.69,
+   "pct": 0.83,
+   "change": 196.89
   },
   {
    "name": "标普500",
    "group": "欧美",
    "code": "SPX",
-   "price": 7182.78,
-   "pct": -0.25,
-   "change": -18.31
+   "price": 7232.47,
+   "pct": 0.69,
+   "change": 49.69
   },
   {
    "name": "美元指数",
    "group": "欧美",
    "code": "UDI",
-   "price": 103.94,
-   "pct": 0.14,
-   "change": 0.15
+   "price": 103.9,
+   "pct": 0.11,
+   "change": 0.11
   }
  ],
  "breadth": {
@@ -749,5 +749,5 @@
    "cls": "stale"
   }
  },
- "elapsed": 144.7
+ "elapsed": 156.6
 }
